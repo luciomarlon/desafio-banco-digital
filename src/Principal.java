@@ -3,7 +3,7 @@ public class Principal {
     public static void main(String[] args) {
 
         Cliente lucio = new Cliente();
-        lucio.setNomecliente("LÚCIO MARLON");
+        lucio.setNomecliente("LÚCIO MARLON OLIVEIRA DE SOUSA");
 
         iConta cc = new ContaCorrente(lucio);
         iConta poupanca = new ContaPoupanca(lucio);
